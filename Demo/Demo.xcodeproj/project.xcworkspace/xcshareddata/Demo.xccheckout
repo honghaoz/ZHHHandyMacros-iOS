@@ -5,36 +5,36 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>2A01AA63-16BF-4066-8141-99CCC84E1DB2</string>
+	<string>E20D2B9E-C175-46BD-8DF4-AE00C0D60733</string>
 	<key>IDESourceControlProjectName</key>
 	<string>Demo</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>0B2CFADE-1833-4A6B-9746-D97AC8363DE0</key>
-		<string>https://github.com/honghaoz/ZHHHandyHeader.git</string>
+		<key>AB002249-6018-489B-904C-51C2886A73C6</key>
+		<string>https://github.com/honghaoz/ZHHHandyFunctions.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>Demo/Demo.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>0B2CFADE-1833-4A6B-9746-D97AC8363DE0</key>
+		<key>AB002249-6018-489B-904C-51C2886A73C6</key>
 		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/honghaoz/ZHHHandyHeader.git</string>
+	<string>https://github.com/honghaoz/ZHHHandyFunctions.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>0B2CFADE-1833-4A6B-9746-D97AC8363DE0</string>
+	<string>AB002249-6018-489B-904C-51C2886A73C6</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>0B2CFADE-1833-4A6B-9746-D97AC8363DE0</string>
+			<string>AB002249-6018-489B-904C-51C2886A73C6</string>
 			<key>IDESourceControlWCCName</key>
-			<string>ZHHHandyHeader</string>
+			<string>ZHHHandyFunctions</string>
 		</dict>
 	</array>
 </dict>
