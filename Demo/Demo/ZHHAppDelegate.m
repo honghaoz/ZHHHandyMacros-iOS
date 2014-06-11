@@ -9,8 +9,6 @@
 #import "ZHHAppDelegate.h"
 #import "ZHHViewController.h"
 
-#import "ZHHHandyFunctions.h"
-
 @implementation ZHHAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions

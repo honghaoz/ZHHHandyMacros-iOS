@@ -7,7 +7,8 @@
 
 #import <Foundation/Foundation.h>
 
-// Define NSLog as ConciseNSLo
+// NSLog(...) -> ConciseNSLog(...)
+// Define NSLog as ConciseNSLog
 #ifdef DEBUG
     #define NSLog(args...) ConciseNSLog(__FILE__,__LINE__,__PRETTY_FUNCTION__,args);
 #else
@@ -16,6 +17,9 @@
 
 void ConciseNSLog(const char *file, int lineNumber, const char *functionName, NSString *format, ...);
 
+void ConciseNSLogWithoutTimeStamp(const char *file, int lineNumber, const char *functionName, NSString *format, ...);
+
+// NSLogX(...) -> ExtendNSLog(...)
 // Define NSLogX(), include function name, file name and line number
 #define NSLogX(args...) ExtendNSLog(__FILE__,__LINE__,__PRETTY_FUNCTION__,args);
 
