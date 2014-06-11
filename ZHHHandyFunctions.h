@@ -31,4 +31,6 @@ void ExtendNSLog(const char *file, int lineNumber, const char *functionName, NSS
 // NSInteger to NSString
 #define NSIntegerToString(i) [NSString stringWithFormat:@"%lu", (unsigned long)i]
 
+// Print an Object, to see if this object is nil
+#define PrintNil(object) NSLog(@"%@ is %@", [object class], object == nil? @"nil" : @"not nil")
 

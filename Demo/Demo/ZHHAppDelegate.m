@@ -21,6 +21,7 @@
     NSLog(@"test nslog");
     NSLogX(@"test nslogX");
     LogMethod;
+    PrintNil(self.window.rootViewController);
     return YES;
 }
 

@@ -22,7 +22,8 @@ By default, `NSLog(...)` is defined as `ConciseNSLog(...)`, and Added `NSLogX(..
 
 	For example, `2014-06-10 20:07:56.014 -[ZHHAppDelegate application:didFinishLaunchingWithOptions:]`
 
-* `NSIntegerToString(i)`: convert NSInteger to NSString
+* `NSIntegerToString(i)`: convert NSInteger to NSString.
+* `PrintNil(object)`: Print out whether an object is nil.
 
 ### Usage
 
