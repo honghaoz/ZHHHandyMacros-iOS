@@ -1,8 +1,8 @@
-ZHHHandyFunctions-iOS
+ZHHHandyMacros-iOS
 =====================
 
 ### Overview
-ZHHHandyFunctions contain some handy functions/macros that can make your life of iOS development eaiser.
+ZHHHandyMacros contain some handy functions/macros that can make your life of iOS development eaiser.
 
 * `ConciseNSLog(...)`: a concised version of `NSLog(...)`, only log out time stamp and log body, not any other extra informations.
 
@@ -24,9 +24,10 @@ By default, `NSLog(...)` is defined as `ConciseNSLog(...)`, and Added `NSLogX(..
 
 * `NSIntegerToString(i)`: convert NSInteger to NSString.
 * `PrintNil(object)`: Print out whether an object is nil.
+* `IS_IPHONE_5`: test whether the device is 4-inch screen
 
 ### Usage
 
-Add `ZHHHandyFunctions.h` and `ZHHHandyFunctions` into your project, then add `#import "ZHHHandyFunctions.h"` in `your-proj-name-Prefix.pch`. (`your-proj-name-Prefix.pch` is located in `Supporting Files` of your project)
+Add `ZHHHandyMacros.h` and `ZHHHandyMacros` into your project, then add `#import "ZHHHandyMacros.h"` in `your-proj-name-Prefix.pch`. (`your-proj-name-Prefix.pch` is located in `Supporting Files` of your project)
 
 
