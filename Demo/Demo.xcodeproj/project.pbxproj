@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B058344194E2844000D43C2 /* ZHHHandyMacros.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B058343194E2844000D43C2 /* ZHHHandyMacros.m */; };
 		1BDA8F081947C517006718B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BDA8F071947C517006718B5 /* Foundation.framework */; };
 		1BDA8F0A1947C517006718B5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BDA8F091947C517006718B5 /* CoreGraphics.framework */; };
 		1BDA8F0C1947C517006718B5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BDA8F0B1947C517006718B5 /* UIKit.framework */; };
@@ -19,7 +20,6 @@
 		1BDA8F231947C517006718B5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BDA8F0B1947C517006718B5 /* UIKit.framework */; };
 		1BDA8F2B1947C517006718B5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1BDA8F291947C517006718B5 /* InfoPlist.strings */; };
 		1BDA8F2D1947C517006718B5 /* DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BDA8F2C1947C517006718B5 /* DemoTests.m */; };
-		1BDA8F391947C5D8006718B5 /* ZHHHandyFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BDA8F381947C5D8006718B5 /* ZHHHandyFunctions.m */; };
 		1BDA8F3C1947CB01006718B5 /* ZHHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BDA8F3B1947CB01006718B5 /* ZHHViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -34,6 +34,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1B058342194E2844000D43C2 /* ZHHHandyMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHHHandyMacros.h; sourceTree = "<group>"; };
+		1B058343194E2844000D43C2 /* ZHHHandyMacros.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHHHandyMacros.m; sourceTree = "<group>"; };
 		1BDA8F041947C517006718B5 /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BDA8F071947C517006718B5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1BDA8F091947C517006718B5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -50,8 +52,6 @@
 		1BDA8F281947C517006718B5 /* DemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DemoTests-Info.plist"; sourceTree = "<group>"; };
 		1BDA8F2A1947C517006718B5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1BDA8F2C1947C517006718B5 /* DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoTests.m; sourceTree = "<group>"; };
-		1BDA8F371947C5D8006718B5 /* ZHHHandyFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZHHHandyFunctions.h; path = ../ZHHHandyFunctions.h; sourceTree = "<group>"; };
-		1BDA8F381947C5D8006718B5 /* ZHHHandyFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZHHHandyFunctions.m; path = ../ZHHHandyFunctions.m; sourceTree = "<group>"; };
 		1BDA8F3A1947CB01006718B5 /* ZHHViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHHViewController.h; sourceTree = "<group>"; };
 		1BDA8F3B1947CB01006718B5 /* ZHHViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHHViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -80,11 +80,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B058341194E2844000D43C2 /* ZHHHandyFunctions */ = {
+			isa = PBXGroup;
+			children = (
+				1B058342194E2844000D43C2 /* ZHHHandyMacros.h */,
+				1B058343194E2844000D43C2 /* ZHHHandyMacros.m */,
+			);
+			name = ZHHHandyFunctions;
+			path = ../ZHHHandyFunctions;
+			sourceTree = "<group>";
+		};
 		1BDA8EFB1947C517006718B5 = {
 			isa = PBXGroup;
 			children = (
-				1BDA8F371947C5D8006718B5 /* ZHHHandyFunctions.h */,
-				1BDA8F381947C5D8006718B5 /* ZHHHandyFunctions.m */,
+				1B058341194E2844000D43C2 /* ZHHHandyFunctions */,
 				1BDA8F0D1947C517006718B5 /* Demo */,
 				1BDA8F261947C517006718B5 /* DemoTests */,
 				1BDA8F061947C517006718B5 /* Frameworks */,
@@ -250,9 +259,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1BDA8F391947C5D8006718B5 /* ZHHHandyFunctions.m in Sources */,
 				1BDA8F141947C517006718B5 /* main.m in Sources */,
 				1BDA8F181947C517006718B5 /* ZHHAppDelegate.m in Sources */,
+				1B058344194E2844000D43C2 /* ZHHHandyMacros.m in Sources */,
 				1BDA8F3C1947CB01006718B5 /* ZHHViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -450,6 +459,7 @@
 				1BDA8F321947C517006718B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1BDA8F331947C517006718B5 /* Build configuration list for PBXNativeTarget "DemoTests" */ = {
 			isa = XCConfigurationList;
@@ -458,6 +468,7 @@
 				1BDA8F351947C517006718B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
