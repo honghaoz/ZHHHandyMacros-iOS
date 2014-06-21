@@ -36,3 +36,10 @@ void ExtendNSLog(const char *file, int lineNumber, const char *functionName, NSS
 
 // Detect 4inch or 3.5inch
 #define IS_IPHONE_5 ( fabs( ( double )[ [ UIScreen mainScreen ] bounds ].size.height - ( double )568 ) < DBL_EPSILON )
+
+// Swap two numbers
+#define OVERLOADABLE __attribute__((overloadable))
+OVERLOADABLE void Swap(float *a, float *b);
+OVERLOADABLE void Swap(NSInteger *a, NSInteger *b);
+OVERLOADABLE void Swap(NSUInteger *a, NSUInteger *b);
+OVERLOADABLE void Swap(double *a, double *b);

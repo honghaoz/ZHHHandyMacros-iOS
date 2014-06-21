@@ -98,3 +98,26 @@ void ExtendNSLog(const char *file, int lineNumber, const char *functionName, NSS
     fprintf(stderr, "%s %s [%s:%d] %s", [currentTime UTF8String],
             functionName, [fileName UTF8String], lineNumber, [body UTF8String]);
 }
+
+OVERLOADABLE void Swap(float *a, float *b) {
+    float temp = *a;
+    *a = *b;
+    *b = temp;
+}
+
+OVERLOADABLE void Swap(NSInteger *a, NSInteger *b) {
+    NSInteger temp = *a;
+    *a = *b;
+    *b = temp;
+}
+OVERLOADABLE void Swap(NSUInteger *a, NSUInteger *b) {
+    NSUInteger temp = *a;
+    *a = *b;
+    *b = temp;
+}
+
+OVERLOADABLE void Swap(double *a, double *b) {
+    double temp = *a;
+    *a = *b;
+    *b = temp;
+}
