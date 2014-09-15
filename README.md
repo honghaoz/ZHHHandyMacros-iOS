@@ -30,7 +30,7 @@ By default, `NSLog(...)` is defined as `ConciseNSLog(...)`, and Added `NSLogX(..
 
 Add `ZHHHandyMacros.h` and `ZHHHandyMacros` into your project, then add `#import "ZHHHandyMacros.h"` in `your-proj-name-Prefix.pch`. (`your-proj-name-Prefix.pch` is located in `Supporting Files` of your project)
 
-## The MIT License (MIT)
+## [The MIT License (MIT)](../blob/master/LICENSE.md)
 
 Copyright (c) 2014 Honghao Zhang (http://honghaoz.com)
 
@@ -39,4 +39,3 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
