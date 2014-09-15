@@ -30,7 +30,9 @@ By default, `NSLog(...)` is defined as `ConciseNSLog(...)`, and Added `NSLogX(..
 
 Add `ZHHHandyMacros.h` and `ZHHHandyMacros` into your project, then add `#import "ZHHHandyMacros.h"` in `your-proj-name-Prefix.pch`. (`your-proj-name-Prefix.pch` is located in `Supporting Files` of your project)
 
-## [The MIT License (MIT)](../blob/master/LICENSE.md)
+## The MIT License (MIT)
+
+[The MIT License (MIT)](./LICENSE.md)
 
 Copyright (c) 2014 Honghao Zhang (http://honghaoz.com)
 
